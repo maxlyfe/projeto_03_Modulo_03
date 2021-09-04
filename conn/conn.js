@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 // mongodb://${url}:${port}/${banco}
 function Conn(url,port,banco){
-    mongoose.connect(`mongodb+srv://dbUser:T0zBuN7AjfkQqnL1@blue-db.e8tfx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
+    mongoose.connect(`mongodb+srv://Admin:TxVAh0TrhjBHlOCh@cluster0.ptnhe.mongodb.net/test`, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     }).then(()=>{
